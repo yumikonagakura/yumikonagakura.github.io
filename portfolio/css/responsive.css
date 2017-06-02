@@ -1,0 +1,222 @@
+
+/* タブレット向けレイアウト */
+/* ブレイクポイントをmax-width: 1000pxに指定 */
+@media(max-width:1024px){
+  /*.item{width: 50%;}*/
+
+/* =====================
+	  setting
+	===================== */
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	.container{
+		width: 100%;
+	}
+
+	.sp-none{
+		display: none;
+	}
+
+/* =====================
+	  Header
+	===================== */
+	header{
+		position: fixed;
+		width: 100%;
+		z-index: 200;
+	}
+
+	.head-wrapper{
+		position: relative;
+	}
+
+
+	.menu-box{
+		display: inline-block; 
+		float: right;
+		position: absolute;
+		top:30px;
+		right: 30px;
+	}
+
+	.nav{
+		display: none;
+		width: 100%;
+	}
+
+	.nav-list{
+		width: 100%;
+	}
+
+	.top-wrapper{
+		padding-top: 0;
+		height: 500px;
+	}
+
+
+/* =====================
+	  Main
+	===================== */
+
+	.segment{
+		width: 98%;
+
+	}
+
+	.box{
+		width: 48%;
+	}
+
+	.box h3{
+		font-size:18px;
+		line-height: 18px;
+		height: 100%;
+	}
+
+}
+
+/* スマートフォン向けレイアウト */
+
+@media(max-width:767px){
+  
+	/* =====================
+	  setting
+	===================== */
+
+	.container{
+		width: 100%;
+	}
+
+	.sp-none{
+		display: none;
+	}
+
+	/* =====================
+	  Header
+	===================== */
+
+	.head-wrapper{
+		height: 60px;
+	}
+
+	.header-title{
+		line-height: 20px;
+		font-size:10px;
+		width: 250px;
+	}
+
+	.site-discription{
+		font-size: 10px;
+		width: 100%;
+		margin: 0 auto;
+		position: relative;
+   }
+
+   .kaigyo{
+   		display: block;
+   }
+
+	.menu-box{
+		/*display: inline-block;*/
+		position: absolute;
+		top: 5px;
+		right: 10px;
+	}
+
+
+	.nav{
+		display: none;
+		width: 100%;
+	}
+
+	.nav-list{
+		width: 100%;
+	}
+
+
+/* =====================
+	  Main
+	===================== */
+
+	.top-wrapper{
+		height: 300px;
+		padding-top:0px;
+	}
+
+	#container{
+		height:300px;
+	}
+
+	.reading{
+		line-height: 15px;
+		font-size: 12px;
+		height: 35px;
+		padding-top:5px;
+	}
+
+	.segment{
+		width: 95%;
+
+	}
+
+	.box{
+		width: 100%;
+		float: none;
+	}
+
+	.box-title{
+		font-size: 20px;
+		padding-top:5px; 
+	}
+
+	.box h3{
+		font-size:16px;
+		line-height: 20px;
+		height: 100%;
+	}
+
+	.box p{
+		font-size: 13px;
+	}
+
+	.box span{
+		position: absolute;
+		bottom: -15%;
+		right: 0px;
+	}
+
+	.boximage{
+		margin: 2%;
+	}
+
+	.access p{
+		font-size: 11px;
+		padding-bottom: 10px;
+	}
+
+	footer{
+		text-align: center;
+	}
+
+	.footer-logo{
+		float: none;
+		font-size: 10px;
+	}
+
+	.copyright{
+		float: none;
+		font-size: 5px;
+	}
+
+}
+
+
+
+
+
+
+
+

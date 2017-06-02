@@ -1,0 +1,326 @@
+*{
+margin: 0;
+padding: :0;
+box-sizing: border-box;	
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+body{
+	font-family: Lato, "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+	/*max-width: 1300px;*/
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+	}
+
+.head-wrapper{
+	width: 100%;
+	height: 115px;
+	/*margin: 0 auto;*/
+	background-image: url(../img/top1.jpg);
+	text-align: center;
+	color: white;
+	position: fixed;
+	/*position: relative;*/
+	z-index: 100;
+}
+
+.header-title{
+	line-height: 80px;
+	width: 500px;
+	font-size: 20px;
+	margin: 0 auto;
+/*	border-bottom:2px solid #666464;*/
+	/*opacity: 0.9;*/
+}
+
+.site-discription{
+	line-height: 20px;
+	width: 100%;
+	font-size: 15px;
+	margin: 0 auto;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    float: left;
+}
+.kaigyo{
+	display: none;
+}
+
+/*ハンバーガーメニュー*/
+
+.menu-box{
+	display: none;
+	float: right;
+	width: 30px;
+	height: 35px;
+	background-color: white;
+	border: 1px solid #AF9389;
+
+}
+
+.list-bar{
+	display: block;
+	width: 25px;
+	height: 2px;
+	margin: 5px auto;
+	background-color: #7E5037;
+}
+
+.list-bar:first-child{
+	margin-top: 10px;
+}
+
+.nav{
+	display: none;
+	width: 1030px;
+	margin: 0 auto;
+	height: 80px;
+	float: right;
+}
+
+.nav-list{
+	width: 500px;
+	float: right;
+	line-height: 20px;
+	text-align: center;
+	list-style: none;
+	background-color: #F7F7F7;
+	border: 0.5px solid #7E5037;
+}
+
+.nav-list:hover{
+	transition: all 1s;
+	background-color:#AF9389;
+}
+
+.nav-list a{
+	color: #7E5037;
+	text-decoration: none;
+	text-align: center;
+}
+
+.nav-list a:hover{
+	color: white;
+}
+
+
+
+/*ハンバーガーメニュー終わり*/
+
+.top-wrapper{
+	position: relative;
+	padding-top:115px; 
+	height: 615px;
+	border-bottom:2px solid #666464;
+	background-color:#F7F7F7;
+	background-size:cover;
+	background-position: cover: 
+	color: rgb(94, 37, 6);
+}
+
+#container{
+	position:absolute;
+	height:500px;
+	width: 100%;
+}
+
+#theTarget{
+	opacity: 0.8;
+}
+
+.main-wrapper{
+	color: rgb(94, 37, 6);
+	background-color:#F7F7F7;
+}
+
+.reading{
+	/*display: none;*/
+	line-height:30px;
+	text-align: center;
+	height: 70px;
+	padding-top:10px; 
+}
+
+.segment{
+	width: 98%;
+	margin:0 auto;
+}
+
+.box{
+	background-color: white;
+	border-radius: 2%;
+	float: left;
+	width: 48.5%;
+	height: 400px;
+	margin: 0 6px;
+}
+
+.box:hover{
+	transition: all 1s;
+	background-color: #7E5037;
+	color: white;
+}
+
+
+.box-title{
+	text-align: center;
+	font-size: 32px;
+	padding-top: 10px;
+	margin: 0 0 3px 0;
+}
+
+.icons{
+	padding-top: 5px;
+	line-height:30px;
+	font-size: 30px;
+	letter-spacing:15px;
+	border-top: 6px double #AF9389;
+	border-bottom:6px double #AF9389;
+}
+
+
+.icons li{
+	list-style:none;
+	float: right;
+}
+
+.icons i{
+	color:#AF9389;
+}
+
+
+.icons i:hover{
+	transition: all 1s;
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+.text-area{
+	width: 45%;
+	float: left;
+	margin: 2.5%;
+	position: relative;
+}
+
+.box h3{
+	font-size: 20px;
+	text-align: center;
+	height: 33px;
+	line-height: 1.2;
+	font-weight: normal;
+}
+
+.box p{
+	font-size: 15px;
+	padding-top:10px;
+}
+
+.box span{
+	position: absolute;
+	bottom:-20px;
+	right: -0px;
+	font-size: 10px;
+	text-align: right;
+}
+
+.img-area{
+	width:45%;
+	height: 100%;
+	float: left;
+}
+
+.boximage{
+	width: 98%;
+	height:47%;
+	float: left;
+	margin: 3%;
+	background-size: cover;
+	background-position: center;
+	border: 1px solid white;
+	border-radius: 2%;
+}
+
+.yume1{
+	background-image: url(../img/yume2.jpg)
+}
+
+.yume2{
+	background-image: url(../img/yume1.jpg);
+}
+
+.koguma1{
+	background-image: url(../img/koguma1.jpg);
+
+}
+.koguma2{
+	background-image: url(../img/koguma2.jpg);
+}
+
+.keiba{
+	background-image: url(../img/keiba.jpg);
+	background-position: left;
+}
+
+.keiba2{
+	background-image: url(../img/keiba2.jpg);
+}
+
+.koen1{
+	background-image: url(../img/koen1.jpg);
+}
+.koen2{
+	background-image: url(../img/koen2.jpg);
+}
+
+.kura{
+	background-image: url(../img/kurayami.jpg);
+	background-position:center;
+}
+
+.kuratai{
+	background-image: url(../img/kurayamitaiko.jpg);
+}
+
+.jazz1{
+	background-image: url(../img/jazz1.jpg);
+}
+
+.jazz2{
+	background-image: url(../img/jazz2.jpg);
+}
+
+.access p{
+	text-align: center; 
+	font-size: 15px;
+	padding-bottom: 20px;
+}
+
+footer{
+	background-color: #cecebb;
+	line-height: 25px;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+}
+
+.footer-logo{
+	float: left;
+	color: white;
+}
+
+.copyright{
+	float: right;
+}
+
+
