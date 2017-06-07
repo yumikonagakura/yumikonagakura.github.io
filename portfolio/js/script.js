@@ -30,8 +30,14 @@ $('.menu-box').click(function(){
 
 });
 
+$('.nav-list').click(function(){
+    $('.nav').slideUp();
+})
+
 // wow.jsを起動するコード
 new WOW().init();
+
+
 
 
 

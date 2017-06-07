@@ -85,14 +85,14 @@ body{
 	display: none;
 	width: 1030px;
 	margin: 0 auto;
-	height: 80px;
+	height: 240px;
 	float: right;
 }
 
 .nav-list{
 	width: 500px;
 	float: right;
-	line-height: 20px;
+	line-height: 60px;
 	text-align: center;
 	list-style: none;
 	background-color: #F7F7F7;
